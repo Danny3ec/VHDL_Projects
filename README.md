@@ -33,27 +33,28 @@ Tested with: Quartus Prime Version 24.1 std. 1077 03/04/2025 SC Lite Edition.
    
 
 * funcgen_micro.vhd  
-  Simple “micro” function generator that uses a counter to blink pwm_out.  
-  Intended to use (sw0) to select between two blink speeds.
+  - Simple “micro” function generator that uses a counter to blink pwm_out.  
+  - Intended to use (sw0) to select between two blink speeds.
 
 * nco.vhd  
-  Numerically Controlled Oscillator.  
+  - Numerically Controlled Oscillator.  
   - Generic PHASE_WIDTH sets accumulator width  
   - Port inc is the tuning word (controls frequency)  
   - Port phase outputs the current phase value.
 
  * sine_lut.vhd  
-  64-entry sine lookup table.  
+  - 64-entry sine lookup table.  
   - Input: addr (6-bit address)  
   - Output: dout (8-bit unsigned 0..255 sine sample)
 
  * pwm.vhd  
-  8-bit PWM generator.  
+  - 8-bit PWM generator.  
   - Input: duty (..255)  
   - Output: outp (PWM signal)
 
  * HEX7SEG (HEX7SEG.vhd)  
-  -  Binary-to-7-segment decoder. Displays hexadecimal values (0–F) on the board’s HEX displays.
+  -  Binary-to-7-segment decoder.
+  -  Displays hexadecimal values (0–F) on the board’s HEX displays.
 
 
 
