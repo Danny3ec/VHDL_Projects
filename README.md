@@ -107,7 +107,7 @@ Tested with: Quartus Prime Version 24.1 std. 1077 03/04/2025 SC Lite Edition.
 ## Repository
 
 All design files and documentation are available at:  
-[https://github.com/yourusername/VHDL_Projects](https://github.com/Danny3ec/VHDL_Projects)
+[https://github.com/Danny3ec/VHDL_Projects](https://github.com/Danny3ec/VHDL_Projects)
 
 
 
