@@ -78,9 +78,9 @@ Tested with: Quartus Prime Version 24.1 std. 1077 03/04/2025 SC Lite Edition.
    - ledr1 (LEDR1) is normally pwm_led, but:
    - If SW1 = 1, ledr1 is forced ON.
 
-5.  HEX7SEG (HEX7SEG.vhd)  
-   - Converts 4-bit input to 7-segment pattern (active-low).  
-   - Displays hexadecimal 0–F.
+5.  HEX7SEG (HEX7SEG.vhd) 
+    - Converts 4-bit input to 7-segment pattern (active-low).  
+    - Displays hexadecimal 0–F.
 
 
 
