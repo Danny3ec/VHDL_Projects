@@ -23,7 +23,7 @@ Tested with: Quartus Prime Version 24.1 std. 1077 03/04/2025 SC Lite Edition.
 ## File overview
 
 * top.vhd  
-  Top-level entity. Connects board I/O:
+  - Top-level entity. Connects board I/O:
   - clk – 50 MHz system clock  
   - rst_n – active-low reset (KEY0)  
   - sw(3 downto 0) – switches  
@@ -53,8 +53,8 @@ Tested with: Quartus Prime Version 24.1 std. 1077 03/04/2025 SC Lite Edition.
   - Output: outp (PWM signal)
 
  * HEX7SEG (HEX7SEG.vhd)  
-  -  Binary-to-7-segment decoder.
-  -  Displays hexadecimal values (0–F) on the board’s HEX displays.
+  - Binary-to-7-segment decoder.
+  - Displays hexadecimal values (0–F) on the board’s HEX displays.
 
 
 
