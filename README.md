@@ -1,4 +1,8 @@
 # VHDL_Projects
+<p align="left">
+  <img src="wolverine.png" alt="Project Logo" width="200"/>
+</p>
+
 ![VHDL](https://img.shields.io/badge/Language-VHDL-blue)
 ![Quartus](https://img.shields.io/badge/Tool-Quartus_Prime_24.1-green)
 ![FPGA](https://img.shields.io/badge/Target-FPGA-lightgrey)
