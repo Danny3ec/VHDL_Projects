@@ -25,9 +25,10 @@ begin
     end if;
   end process;
 
-  -- If SW0=1 -> slow blink (~3 Hz) from bit 23
-  -- If SW0=0 -> faster blink (~190 Hz) from bit 18
-  pwm <= counter(23);
+  -- If SW0=1 -> slow blink from bit 23
+  -- If SW0=0 -> faster blink from bit 18
+  pwm <= counter(23) when sw0 = '1' else counter(18);
 
   pwm_out <= pwm;
 end architecture;
+
