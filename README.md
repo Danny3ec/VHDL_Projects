@@ -6,6 +6,7 @@
 ![VHDL](https://img.shields.io/badge/Language-VHDL-blue)
 ![Quartus](https://img.shields.io/badge/Tool-Quartus_Prime_24.1-green)
 ![FPGA](https://img.shields.io/badge/Target-FPGA-lightgrey)
+![TOP.VHD](https://img.shields.io/badge/File-TOP.VHD-whiteblue)
 
 Collection of VHDL designs and testbenches for my course work
 # FPGA Function Generator (NCO + PWM + 7-segment display)
