@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="Danny3ec.png" width="250" alt="project Logo">
+</p>
+
 # VHDL_Projects
 ###  Block Diagram (Brief Assignment Version)
 > The diagram below shows the conceptual architecture of the waveform generator, including frequency selection, NCO operation, sine LUT, PWM generation, and top-level output routing.
