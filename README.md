@@ -10,7 +10,7 @@
   padding: 10px;
 ">
   <strong>Brief Assignment Block Diagram</strong><br><br>
-  <img src="block_diagram_overview.png" width="600">
+  <img src="Conceptual block diagram.png" width="600">
 </div>
 
 ![VHDL](https://img.shields.io/badge/Language-VHDL-blue)
