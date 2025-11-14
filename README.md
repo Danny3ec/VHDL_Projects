@@ -11,7 +11,7 @@
   padding: 10px;
 ">
     <strong>Brief Assignment Block Diagram</strong><br><br>
-  <img src="Conceptual block diagram.png" width="300">
+  <img src="Conceptual block diagram.drawio.png" width="300">
 </div>
  Brief Assignment Block Diagram: This high-level diagram illustrates the overall architecture of the waveform generator, including frequency selection, NCO phase generation, sine LUT sampling, PWM duty-cycle control, and final hardware output routing.
 
