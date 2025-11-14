@@ -1,5 +1,5 @@
 # VHDL_Projects
-### 🔷 Block Diagram (Brief Assignment Version)
+###  Block Diagram (Brief Assignment Version)
 > The diagram below shows the conceptual architecture of the waveform generator, including frequency selection, NCO operation, sine LUT, PWM generation, and top-level output routing.
 <div align="center" style="
   border: 2px solid #1f6feb;
@@ -7,20 +7,18 @@
   padding: 10px;
 ">
     <strong>Brief Assignment Block Diagram</strong><br><br>
-  <img src="Conceptual block diagram.png" width="600">
+  <img src="Conceptual block diagram.png" width="300">
 </div>
-## 🔷 Brief Assignment Block Diagram
+ Brief Assignment Block Diagram: This high-level diagram illustrates the overall architecture of the waveform generator, including frequency selection, NCO phase generation, sine LUT sampling, PWM duty-cycle control, and final hardware output routing.
 
-This high-level diagram illustrates the overall architecture of the waveform generator, including frequency selection, NCO phase generation, sine LUT sampling, PWM duty-cycle control, and final hardware output routing.
-
-<p align="center">
-  <img src="brief_block_diagram.png" width="600">
-</p>
-
+<div align="center">
+  
 ![VHDL](https://img.shields.io/badge/Language-VHDL-blue)
 ![Quartus](https://img.shields.io/badge/Tool-Quartus_Prime_24.1-green)
 ![FPGA](https://img.shields.io/badge/Target-FPGA-lightgrey)
 ![TOP.VHD](https://img.shields.io/badge/File-TOP.VHD-whiteblue)
+
+</div>
 
 Collection of VHDL designs and testbenches for my course work
 # FPGA Function Generator (NCO + PWM + 7-segment display)
