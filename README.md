@@ -1,17 +1,21 @@
 # VHDL_Projects
-<p align="left">
-  <img src="wolverine.png" alt="Project Logo" width="200"/>
-</p>
-> ### 🔷 Block Diagram (Brief Assignment Version)
+### 🔷 Block Diagram (Brief Assignment Version)
 > The diagram below shows the conceptual architecture of the waveform generator, including frequency selection, NCO operation, sine LUT, PWM generation, and top-level output routing.
 <div align="center" style="
   border: 2px solid #1f6feb;
   border-radius: 8px;
   padding: 10px;
 ">
-  <strong>Brief Assignment Block Diagram</strong><br><br>
+    <strong>Brief Assignment Block Diagram</strong><br><br>
   <img src="Conceptual block diagram.png" width="600">
 </div>
+## 🔷 Brief Assignment Block Diagram
+
+This high-level diagram illustrates the overall architecture of the waveform generator, including frequency selection, NCO phase generation, sine LUT sampling, PWM duty-cycle control, and final hardware output routing.
+
+<p align="center">
+  <img src="brief_block_diagram.png" width="600">
+</p>
 
 ![VHDL](https://img.shields.io/badge/Language-VHDL-blue)
 ![Quartus](https://img.shields.io/badge/Tool-Quartus_Prime_24.1-green)
