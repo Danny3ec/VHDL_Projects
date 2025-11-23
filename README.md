@@ -20,7 +20,7 @@
 ![VHDL](https://img.shields.io/badge/Language-VHDL-blue)
 ![Quartus](https://img.shields.io/badge/Tool-Quartus_Prime_24.1-green)
 ![FPGA](https://img.shields.io/badge/Target-FPGA-lightgrey)
-![TOP.VHD](https://img.shields.io/badge/File-TOP.VHD-whiteblue)
+![TOP.VHD](https://img.shields.io/badge/File-TOP_ORIGINAL.VHD-whiteblue)
 
 </div>
 
@@ -43,7 +43,7 @@ Tested with: Quartus Prime Version 24.1 std. 1077 03/04/2025 SC Lite Edition.
 
 ### File overview
 
-**top.vhd** 
+**top-original.vhd** 
   - Top-level entity. Connects board I/O:
   - clk – 50 MHz system clock  
   - rst_n – active-low reset (KEY0)  
@@ -107,8 +107,8 @@ Tested with: Quartus Prime Version 24.1 std. 1077 03/04/2025 SC Lite Edition.
 
 ## How to simulate
 
-1. Add all VHDL files (top.vhd, funcgen_micro.vhd, nco.vhd, sine_lut.vhd, pwm.vhd, hex7seg.vhd) to your simulation project.
-2. Set top as the top-level entity.
+1. Add all VHDL files (top_original.vhd, funcgen_micro.vhd, nco.vhd, sine_lut.vhd, pwm.vhd, hex7seg.vhd) to your simulation project.
+2. Set top_original as the top-level entity.
 3. Apply a 50 MHz clock on clk and toggle rst_n low then high.
 4. Change sw(0) and sw(1) to observe:
    - Different frequencies from the NCO path
@@ -120,7 +120,7 @@ Tested with: Quartus Prime Version 24.1 std. 1077 03/04/2025 SC Lite Edition.
 
 1. Create a new FPGA project in *[Quartus / Vivado / etc.]*.
 2. Add all VHDL source files.
-3. Set "top" as the top-level entity.
+3. Set "top_original" as the top-level entity.
 4. Assign pins according to your board (as commented in top.vhd).
 5. Compile, program the FPGA and observe LEDs and 7-segment display.
 
