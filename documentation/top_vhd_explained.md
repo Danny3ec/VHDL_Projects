@@ -1,6 +1,6 @@
-# Top-Level Design Explanation (`top.vhd`)
+# Top-Level Design Explanation (`top_original.vhd`)
 
-## 1. Role of `top.vhd`
+## 1. Role of `top_original.vhd`
 The `top.vhd` file is the main integration module for the waveform generator implemented on the Intel DE1-SoC FPGA board. It connects the 50 MHz clock, reset button, user switches, and LEDs to the internal VHDL modules that generate the waveform.
 
 ## 2. External Ports
@@ -50,7 +50,7 @@ SW3,SW2,SW0       SW1,SW0
 
 ## 6. Summary
 
-top.vhd ties together the NCO, sine LUT, PWM, and micro blinker into one coherent design. 
+top_original.vhd ties together the NCO, sine LUT, PWM, and micro blinker into one coherent design. 
 It maps the DE1-SoC switches to mode and frequency control, sharing a 50 MHz clock and 
 common reset logic across all modules.
 ## 7. INC_TAB8 Frequency Lookup Table
