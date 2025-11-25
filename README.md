@@ -82,7 +82,7 @@ Tested with: Quartus Prime Version 24.1 std. 1077 03/04/2025 SC Lite Edition.
 ## How it works
 1. NCO  
    - The nco module has a phase accumulator that adds inc every clock cycle.  
-   - In top.vhd, nco_inc is selected by (SW0):
+   - In top_origina.vhd, nco_inc is selected by (SW0):
    - SW0 = 0 → nco_inc = 1  (lower frequency)  
    - SW0 = 1 → nco_inc = 8  (higher frequency)
 
