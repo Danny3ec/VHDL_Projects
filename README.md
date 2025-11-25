@@ -35,7 +35,7 @@ It includes:
 - An 8-bit PWM block to generate a PWM signal based on the sine values
 - A small micro blinker module
 - A top-level design that connects everything to board switches, LEDs and 7-segment displays
-- A HEX7SEG.vhd  Binary-to-7-segment decoder. Displays hexadecimal values.
+
 
 Tested with: Quartus Prime Version 24.1 std. 1077 03/04/2025 SC Lite Edition.
 
@@ -50,7 +50,6 @@ Tested with: Quartus Prime Version 24.1 std. 1077 03/04/2025 SC Lite Edition.
   - sw(3 downto 0) – switches  
   - pwm_out – LEDR0 (output of funcgen_micro)  
   - ledr1 – LEDR1 (sine-wave PWM with SW1 override)  
-  - hex0, hex1 – 7-segment displays
    
 
 **funcgen_micro.vhd**  
@@ -72,10 +71,6 @@ Tested with: Quartus Prime Version 24.1 std. 1077 03/04/2025 SC Lite Edition.
   - 8-bit PWM generator.  
   - Input: duty (..255)  
   - Output: outp (PWM signal)
-
-**HEX7SEG (HEX7SEG.vhd)**  
-  - Binary-to-7-segment decoder.
-  - Displays hexadecimal values (0–F) on the board’s HEX displays.
 
 
 
@@ -99,9 +94,6 @@ Tested with: Quartus Prime Version 24.1 std. 1077 03/04/2025 SC Lite Edition.
    - ledr1 (LEDR1) is normally pwm_led, but:
    - If SW1 = 1, ledr1 is forced ON.
 
-5.  HEX7SEG (HEX7SEG.vhd) 
-    - Converts 4-bit input to 7-segment pattern (active-low).  
-    - Displays hexadecimal 0–F.
 
 
 
