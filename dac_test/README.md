@@ -2,7 +2,9 @@
 
 This VHDL project tests an **8-bit DAC (TLC7524)** using the DE-series FPGA board.  
 It drives the DAC data bus with either a **manual hexadecimal value** (from switches) or a **generated sine wave** (from a ROM lookup table).  
-The current output value is shown on **LEDs** and **7-segment displays** in hexadecimal.
+The current output value is shown on **LEDs** and **7-segment displays** in hexadecimal. 
+
+The DAC was driven using a timed, strobed interface (dac_test.vhd) where the 8-bit data bus DB[7:0] is latched into the TLC7524 on a controlled WR̅ strobe derived from the 50 MHz clock divider. This approach provides a deterministic update rate and minimises bus-transition glitches compared with the simpler continuous-update configuration (WR̅ and CS̅ tied low). So this is not as we been instructed to do.
 
 ---
 
